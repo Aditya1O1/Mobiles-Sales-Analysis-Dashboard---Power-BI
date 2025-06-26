@@ -56,7 +56,7 @@ Power BI Dashboard Interface Initial Work:
 - Verified data fields and began placing chart visuals.
 ![Screenshot (3303)](https://github.com/user-attachments/assets/78565448-428e-4060-92e9-bc4829b2ed10)
 
-(Final Dashboard)
+
 ### 📅 Day 3 – Final Visuals, Insight Extraction & Polish
 
 - Added all final visuals:
@@ -75,6 +75,7 @@ Power BI Dashboard Interface Initial Work:
 
 ![Screenshot (3304)](https://github.com/user-attachments/assets/59485e4d-3b27-4c4e-b5e2-42b3395c9a4f)
 
+(Final Dashboard)
 ![Screenshot (3305)](https://github.com/user-attachments/assets/22163f51-a239-4d89-a676-35119e3db3c7)   
 
 
