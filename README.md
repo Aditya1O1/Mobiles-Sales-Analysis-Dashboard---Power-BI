@@ -12,12 +12,40 @@ This project presents a fully interactive and insightful **Mobile Sales Dashboar
 > 🚧 **Project Development Log – 3-Day Progress**
 This project was developed from scratch over a span of 3 days to ensure originality and depth of understanding. Below is a breakdown of the effort and progress made each day:
 
-### 📅 Day 1 – Data Understanding & Planning
-- Analyzed the raw dataset (mobile sales across cities).
-- Identified relevant KPIs: total sales, quantity, payment types, brand/model-level performance.
-- Designed a layout plan for dashboard structure and filtering options.
-- Set up Power BI environment and imported data.
-- Made Background canvas and Logo to start.
+### 📅 Day 1 – Data Understanding, Cleaning & Measure Setup
+
+- 🧹 Performed essential **ETL operations** before importing into Power BI:
+  - Cleaned and standardized categorical fields like the `Day` column (e.g., replacing "Mon", "Tue" with full names like "Monday", "Tuesday").
+  - Merged separate `Date`, `Month`, and `Year` columns into a single **custom Date column** using Power Query Editor's `Custom Column` formula.
+  - Changed data types appropriately for all columns (e.g., numeric, date, text).
+  - Removed redundant columns post-transformation to maintain a tidy and optimized dataset structure.
+
+- 📊 Identified and outlined core business KPIs:
+  - `Total Sales`, `Total Quantity`, `Transactions`, and `Average Sales per Transaction`.
+
+- 📥 Imported the transformed dataset into Power BI.
+- ➕ Built **4 key DAX measures** to support dashboard insights:
+  - `Total Sales` using `SUMX(Units Sold * Price per Unit)`
+  - `Total Quantity` using `SUM`
+  - `Transactions` using `COUNTROWS`
+  - `Average` using `DIVIDE(Total Sales, Transactions)`
+
+- 🧠 Planned the overall dashboard layout structure, including KPI cards, slicers, and supporting visuals across multiple dimensions like City, Brand, Model, and Payment Method.
+
+📸 **Original vs Transformed Data**
+
+Original Data:
+![Screenshot (3307)](https://github.com/user-attachments/assets/65bed330-e7f4-47fa-b7a7-833cb98aaf64)
+
+![Screenshot (3308)](https://github.com/user-attachments/assets/f379ffb8-d2f3-4696-b22e-358fe74b020d)
+
+Transformed Data:
+
+![Screenshot (3306)](https://github.com/user-attachments/assets/78a4dad3-5951-452d-8058-050169deda56)
+
+
+Power BI Dashboard Interface Initial Work:
+
 ![Screenshot (3302)](https://github.com/user-attachments/assets/6a2a9dd8-94fa-420b-9e6c-81e718c5f2aa)
 
 
