@@ -23,14 +23,16 @@ This project was developed from scratch over a span of 3 days to ensure original
 
 ### 📅 Day 2 – Dashboard Design and Visual Development
 - Added KPI cards for Total Sales, Quantity, Transactions, and Average Sales.
-- Created slicers for Month, Brand, Payment Method, and Day Name.
+- Created slicers for Month.
 - Set up visual styling with a custom color palette and formatting.
 - Verified data fields and began placing chart visuals.
 ![Screenshot (3303)](https://github.com/user-attachments/assets/78565448-428e-4060-92e9-bc4829b2ed10)
 
 (Final Dashboard)
 ### 📅 Day 3 – Final Visuals, Insight Extraction & Polish
+
 - Added all final visuals:
+- Created slicers for Mobile Model, Brand, Payment Method, and Day Name.
   - Bar chart: **Total Sales by City**
   - Line chart: **Total Quantity by Day**
   - Pie chart: **Payment Method Distribution**
