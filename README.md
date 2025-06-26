@@ -9,6 +9,30 @@ This project presents a fully interactive and insightful **Mobile Sales Dashboar
 ---
 
 
+> 🚧 **Project Development Log – 3-Day Progress**
+This project was developed from scratch over a span of 3 days to ensure originality and depth of understanding. Below is a breakdown of the effort and progress made each day:
+
+### 📅 Day 1 – Data Understanding & Planning
+- Analyzed the raw dataset (mobile sales across cities).
+- Identified relevant KPIs: total sales, quantity, payment types, brand/model-level performance.
+- Designed a layout plan for dashboard structure and filtering options.
+- Set up Power BI environment and imported data.
+
+### 📅 Day 2 – Dashboard Development
+- Built all visual components: bar charts, pie charts, line charts, KPI cards, area charts, and slicers.
+- Applied DAX measures for total/average sales, transactions, and filtering.
+- Created relationships between tables using Power BI's data model.
+- Implemented conditional formatting and drill-down visuals.
+
+### 📅 Day 3 – Polishing & Insight Extraction
+- Added interactivity through slicers (month, brand, payment method).
+- Extracted insights (e.g., ₹16M sales in Delhi, 29% UPI usage, Saturday peak).
+- Improved aesthetics: aligned visuals, updated fonts, added titles and legends.
+- Wrote documentation, created README, and packaged `.pbix` file for GitHub.
+
+🧠 **Total Effort:** ~15+ hours of hands-on work, entirely original and customized for mobile sales analysis.
+
+
 ---
 
 ## 📦 Dataset Overview
