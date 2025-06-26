@@ -190,10 +190,12 @@ Displays high-level business metrics:
 
 > 📌 Add your screenshot in `Screenshots/` folder and update the path below.
 
-![Dashboard Overview](./Screenshots/dashboard_overview.png)
+![Dashboard Overview]
+
+
+![Screenshot (3305)](https://github.com/user-attachments/assets/054ea98d-925d-4109-b5f2-df29f1ddd153)
 
 ---
-
 ## ▶️ How to Use
 
 1. Download or clone this repository.
